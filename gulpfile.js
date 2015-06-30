@@ -63,8 +63,10 @@ gulp
 
 .task("deploy", ["build"], function() {
 	return gulp
-		.src(gulp.src("dist/**/*"))
-		.pipe($.deploy({
+		.src("dist/**/*")
+		.pipe($.plumber(errLogger))
+		.pipe($.if(opts.isDebug, $.debug()))
+		.pipe($.ghPages({
 			push: !$.util.env.nopush,
 		}));
 })
