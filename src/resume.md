@@ -116,9 +116,10 @@ Primary engineer responsible for designing, implementing, and maintaining all  s
  * .markdown-preview - secondary; preview via Atom IDE
  */
 
-/* highlight hovered for testing */
+/* highlight hovered for testing
 html:hover, body:hover, div#preview, div.markdown-preview { background:#FFF; }
 div#preview *:hover, div.markdown-preview *:hover { background:rgba(128,160,192,0.5); }
+*/
 
 div#preview, div.markdown-preview {
 	position: inherit;
