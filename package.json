@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume for Kyle P Davis",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp"
+  },
+  "author": "Kyle P Davis <me@KylePDavis.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-debug": "^2.0.1",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-if": "^1.2.5",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.6",
+    "html-pdf": "^1.2.1",
+    "roaster": "^1.1.3"
+  },
+  "private": true
+}
