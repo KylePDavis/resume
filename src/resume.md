@@ -133,7 +133,7 @@ div#preview, div.markdown-preview {
 	line-height: 1.4;
 	color: #000;
 	background: #FFF;
-    font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 div#preview {
 	padding: 2em;
@@ -144,7 +144,7 @@ div.markdown-preview *, div.markdown-preview th {
 @media print {
 	a[href] {
 		color: #000;
-        text-decoration: none;
+		text-decoration: none;
 	}
 	@page {
 		size: 8.5in 11in;
@@ -152,10 +152,10 @@ div.markdown-preview *, div.markdown-preview th {
 	}
 	div#preview {
 		padding-left: 0.48in;
-        padding-right: 0.52in;
-        padding-top: 0.50in;
-        padding-bottom: 0.50in;
-        font-size: 10pt;
+		padding-right: 0.52in;
+		padding-top: 0.50in;
+		padding-bottom: 0.50in;
+		font-size: 10pt;
 	}
 	.page-break {
 		page-break-before: always;
@@ -180,7 +180,7 @@ div#preview ul, div.markdown-preview ul {
 }
 
 div#preview table, div.markdown-preview table {
-    display: table;
+	display: table;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -188,9 +188,9 @@ div#preview table, div.markdown-preview table {
 	border-collapse: collapse;
 }
 div#preview table, div.markdown-preview table,
-div#preview th,    div.markdown-preview th,
-div#preview td,    div.markdown-preview td,
-div#preview tr,    div.markdown-preview tr {
+div#preview th,	div.markdown-preview th,
+div#preview td,	div.markdown-preview td,
+div#preview tr,	div.markdown-preview tr {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -228,31 +228,31 @@ code.lang-js {
 }
 
 table .xp-what {
-    display: block;
-    width: 100%;
+	display: block;
+	width: 100%;
 	min-width: 2in;
 }
 table .xp-where {
 	display: block;
-    width: 100%;
+	width: 100%;
 	min-width: 1in;
 	text-align: center;
 }
 table tbody .xp-where {
 	color: #777;
-    font-weight: normal;
-    font-size: 0.8em;
+	font-weight: normal;
+	font-size: 0.8em;
 }
 table .xp-when {
 	display: block;
-    width: 100%;
+	width: 100%;
 	min-width: 2in;
 	text-align: right;
 }
 table tbody .xp-when {
 	color: #777;
-    font-weight: normal;
-    font-size: 0.8em;
+	font-weight: normal;
+	font-size: 0.8em;
 }
 
 </style>
