@@ -3,8 +3,13 @@ My resume in "pure" markdown.
 Apologies to anyone reading the source for the inline HTML required to make it work.
 -->
 
+[site]: http://KylePDavis.com
+[email]: mailto:resume@KylePDavis.com
+[GitHub]: https://github.com/KylePDavis/
+[LinkedIn]: https://www.linkedin.com/in/KylePDavis
+[Twitter]: https://twitter.com/Kyle_P_Davis
 
-| [<b class="my-name">Kyle P Davis<small>.com</small></b>](http://KylePDavis.com/) | <b class="my-number"></b> | [<b class="my-email">resume@KylePDavis.com</b>](mailto:resume@KylePDavis.com)
+| [<b class="my-name">Kyle P Davis<small>.com</small></b>][site] | <b class="my-number"></b> | [<b class="my-email">resume@KylePDavis.com</b>][email]
 |:----|:---:|----:
 | * * | * * | * *
 
@@ -18,7 +23,7 @@ Apologies to anyone reading the source for the inline HTML required to make it w
 * Known for solving difficult problems
 * Able to master new technologies with ease
 * Passionate about creating software to make life better
-* Lover of technology, computers, programming, algorithms, databases, visualization, automation, and open source
+* Love technology, computers, programming, algorithms, databases, visualization, and open source (see my [GitHub])
 
 
 
@@ -29,8 +34,8 @@ Apologies to anyone reading the source for the inline HTML required to make it w
 | _Scripting_     | JavaScript / ES6, NodeJS, CoffeeScript, TypeScript, Python, Perl, PHP, Ruby, Bash, PowerShell
 | _Coding_        | C# / .NET / WCF / WPF / EF / LINQ, Objective-C / iOS, C++ / C, Java, Go, Swift
 | _Web_           | AngularJS, jQuery, Bootstrap, d3, SVG, three.js, ASP.NET, HTML, CSS
-| _Data_          | Lexers & Parsers, RegExp, JSON, CSV, CSON, YAML, TOML, XML, XSLT
 | _Databases_     | MongoDB, Redis, ElasticSearch, PostgreSQL, MySQL, LDAP, ArangoDB
+| _Data_          | Lexers & Parsers, RegExp, JSON, CSV, CSON, YAML, TOML, XML, XSLT
 | _Architecture_  | Micro-services, REST, ESB, SOA, n-tier, MVC
 | _Misc_          | BabelJS, jshint, eslint, jscs, gulp, grunt, pep8, flake, shellcheck
 | _Testing_       | Web Driver / Selenium, PhantomJS, mocha, karma, protractor, istanbul, jscoverage
@@ -94,11 +99,11 @@ Primary engineer responsible for designing, implementing, and maintaining all  s
 
 ## Education
 
-| <b class="xp-what">M.S. in Computer Science</b> | <b class="xp-where">Georgia Tech</b> | <b class="xp-when">Fall 2015</b>
+| <b class="xp-what">M.S. in Computer Science</b> | <b class="xp-where">Georgia Tech</b> | <b class="xp-when">8/2015</b>
 |:----|----:|----:
 |                                                 | <b class="xp-where">Online / GA</b>  | <b class="xp-when">0.0yr</b>
 
-* Enrolled for Fall 2015
+* Enrolled for the Online MS in CS program, beginning in Fall 2015
 
 
 | <b class="xp-what">B.S. in Computer Science</b> | <b class="xp-where">Indiana University</b>         | <b class="xp-when">6/2002 - 5/2012</b>
@@ -139,6 +144,7 @@ div.markdown-preview *, div.markdown-preview th {
 @media print {
 	a[href] {
 		color: #000;
+        text-decoration: none;
 	}
 	@page {
 		size: 8.5in 11in;
