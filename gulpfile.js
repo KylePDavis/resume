@@ -72,7 +72,7 @@ gulp
 })
 
 .task("clean", function() {
-	del.sync(["dist"]);
+	del.sync(["dist/**/*"]);
 })
 
 .task("watch", ["build"], function() {
