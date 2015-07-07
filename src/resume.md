@@ -100,14 +100,14 @@ Primary engineer responsible for designing, implementing, and maintaining all  s
 ## Education
 
 | <b class="xp-what">M.S. in Computer Science</b> | <b class="xp-where">Georgia Tech</b> | <b class="xp-when">8/2015</b>
-|:----|----:|----:
+|:----|:---:|----:
 |                                                 | <b class="xp-where">Online / GA</b>  | <b class="xp-when">0.0yr</b>
 
 * Enrolled for the Online MS in CS program, beginning in Fall 2015
 
 
 | <b class="xp-what">B.S. in Computer Science</b> | <b class="xp-where">Indiana University</b>         | <b class="xp-when">6/2002 - 5/2012</b>
-|:----|----:|----:
+|:----|:---:|----:
 |                                                 | <b class="xp-where">Southeast / New Albany, IN</b> | <b class="xp-when">10.0yr</b>
 
 * Minor in Mathematics
